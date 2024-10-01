@@ -21,12 +21,18 @@ body {
 .box {
 	width: 300px;
 	background-color: #31363b;
-	padding: 20px;
 	position: relative;
 	padding-top: 150px;
 	margin: 30px;
 	box-shadow: 5px 5px 10px #31363b;
+	color: lightgrey;
+	font-family: "Source Sans 3", sans-serif;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
 	color: white;
+	padding: 10px 20px 0 20px;
 }
 
 .foto {
@@ -39,4 +45,52 @@ body {
 a {
 	text-decoration: none;
 	color: white;
+	text-transform: uppercase;
+	display: inline;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: lightgrey;
+	padding: 15px;
+	border-top: solid 1px white;
+}
+
+p{
+	padding: 10px 20px 20px 20px;
+	margin: 0;
+}
+
+.odkazy {
+	padding: 0;
+}
+
+.portfolio {
+	width: 100%;
+}
+
+.portfolio:hover{
+	background-color: #e74c3c;
+}
+
+.facebook {
+	display: inline-block;
+	width: 50%;
+}
+
+.facebook:hover{
+	background-color: #3b5998;
+}
+
+.twitter {
+	display: inline-block;
+	width: 50%;
+	border-left: solid 1px white;;
+}
+
+.twitter:hover{
+	background-color: #1da1f2;
 }
