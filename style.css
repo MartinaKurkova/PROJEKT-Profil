@@ -16,6 +16,8 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	font-family: "Source Sans 3", sans-serif;
+	color: lightgrey;
 }
 
 .box {
@@ -25,14 +27,21 @@ body {
 	padding-top: 150px;
 	margin: 30px;
 	box-shadow: 5px 5px 10px #31363b;
-	color: lightgrey;
-	font-family: "Source Sans 3", sans-serif;
 }
 
 h1 {
 	font-family: "Montserrat", sans-serif;
 	color: white;
-	padding: 10px 20px 0 20px;
+	padding: 60px 20px 0 20px;
+}
+
+.logo {
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	right: 20px;
+	top: 170px;	
+	box-shadow: 5px 5px 10px #0d0f11;
 }
 
 .foto {
