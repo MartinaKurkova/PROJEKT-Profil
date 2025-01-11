@@ -13,93 +13,87 @@ html { box-sizing: border-box; }
 	twitter    #1da1f2
 */
 
-
 body {
+	font-family: "Source Sans 3", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 	background-color: #bdc3c7;
-	font-family: "Source Sans 3", sans-serif;
-	color: lightgrey;
-}
+	color: white;
+  }
 
-.box {
+  h1 {
+	font-family: "Montserrat", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	margin-top: 10px;
+  }
+
+  .box {
 	width: 300px;
 	background-color: #31363b;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin: 150px auto;
+  }
+
+  .obsah {
+	padding: 20px;
+  }
+
+  .foto {
+	width: 100%;
+  }
+
+  .hlavicka {
 	position: relative;
-	padding-top: 150px;
-	margin: 30px;
-	box-shadow: 5px 5px 10px #31363b;
-}
+  }
 
-h1 {
-	font-family: "Montserrat", sans-serif;
-	color: white;
-	padding: 60px 20px 0 20px;
-}
-
-.logo {
+  .logo {
 	background-color: #b92e81;
 	border-radius: 50%;
 	position: absolute;
-	right: 20px;
-	top: 170px;	
-	box-shadow: 5px 5px 10px #0d0f11;
-}
+	bottom: -25px;
+	right: 25px;
+  }
 
-.foto {
-	width: 300px;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-a {
+  a {
 	text-decoration: none;
 	color: white;
-	text-transform: uppercase;
-	display: inline;
-}
+	font-family: "Montserrat", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 500;
+  }
 
-li {
+  ul {
+	padding: 0;
+	margin: 0;
+  }
+
+  li {
 	list-style-type: none;
 	text-align: center;
-	font-family: "Montserrat", sans-serif;
-	font-weight: bold;
-	color: lightgrey;
-	padding: 15px;
-	border-top: solid 1px white;
-}
+	padding: 10px;
+	text-transform: uppercase;
+	border-top: #3f464d 1px solid;
+  }
 
-p{
-	padding: 10px 20px 20px 20px;
-	margin: 0;
-}
-
-.odkazy {
-	padding: 0;
-}
-
-.portfolio {
-	width: 100%;
-}
-
-.portfolio:hover{
-	background-color: #e74c3c;
-}
-
-.facebook {
+  .facebook, .twitter {
 	display: inline-block;
 	width: 50%;
-}
+  }
 
-.facebook:hover{
+  .facebook {
+	border-right: #3f464d 1px solid;
+  }
+
+  .facebook:hover {
 	background-color: #3b5998;
-}
+  }
 
-.twitter {
-	display: inline-block;
-	width: 50%;
-	border-left: solid 1px white;;
-}
-
-.twitter:hover{
+  .twitter:hover {
 	background-color: #1da1f2;
-}
+  }
+
+  .portfolio:hover {
+	background-color: #e74c3c;
+  }
